@@ -1,11 +1,5 @@
 body {
     font-family: "Mitr", sans-serif !important;
-    background: url("./static/background.png");
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-
-
 }
 
 .nav-bar,
@@ -14,37 +8,39 @@ body {
 }
 
 :root {
-    --color-main: #EA31FB;
-    --color-main2: #49004b;
+    --color-main: #2776ff;
+    --color-main2: #6498e2;
+    --color-border: #9aabff;
+    --color-border-box-shadow: #91bdff;
     --padding-top: 60px;
     --nav-hover-color: 1px solid white;
-    --btn-expland-color: #EA31FB;
-    --blue-text-shadow-379AFC: 3px 2px 6px #790084 !important;
-    --blue-btn-bg: transparent linear-gradient(180deg, #FF7D31 0%, #FF7D31 100%) 0% 0% no-repeat padding-box;
-    --blue-btn-border: 1px solid #790084;
+    --btn-expland-color: #2776ff;
+    --blue-text-shadow-379AFC: 3px 2px 6px #1365d8 !important;
+    --blue-btn-bg: transparent linear-gradient(180deg, #66a1ff 0%, #66a1ff 100%) 0% 0% no-repeat padding-box;
+    --blue-btn-border: 1px solid #1365d8;
     --white-text-color: #fff !important;
     --black-text-color: #000;
-    --theme-text-color: #790084;
+    --theme-text-color: #1365d8;
     --button-text-xlg: normal normal normal 18px/35px Kanit;
     --nav-text-xlg: normal normal normal 24px/35px Kanit;
     --dark-btn-bg: transparent linear-gradient(180deg, #122033 0%, #080E16 77%, #000000 100%) 0% 0% no-repeat padding-box;
-    --blue-box-shadow: inset 0px 3px 6px #00000029, 0px 0px 10px #FF7D31;
+    --blue-box-shadow: inset 0px 3px 6px #00000029, 0px 0px 10px #66a1ff;
     --nav-text-lg: normal normal normal 20px/35px Kanit;
     --button-text-sm: normal normal normal 15px/30px Kanit;
     --button-width-lg: 115px;
     --button-width-sm: 100px;
     --button-height-lg: 35px;
     --button-height-sm: 30px;
-    --blue-text-shadow-4D9EF8: 3px 2px 6px #FF7D31 !important;
-    --blue-text-shadow-299FF5: 3px 3px 6px #FF7D31 !important;
-    --border-main: 3px solid #EA31FB;
-    --border-thick: 5px solid #790084;
+    --blue-text-shadow-4D9EF8: 3px 2px 6px #66a1ff !important;
+    --blue-text-shadow-299FF5: 3px 3px 6px #66a1ff !important;
+    --border-main: 3px solid #2776ff;
+    --border-thick: 5px solid #1365d8;
     --border-thin: 1px solid #FF50008;
-    --play-bg-color: #FF7D31;
+    --play-bg-color: #66a1ff;
     --light-bg-gradient: transparent linear-gradient(180deg, #FF5000 0%, #1A264A 100%) 0% 0% no-repeat padding-box;
-    --table-text-color: #FF7D31;
-    --deposite-btn-color: #FF7D31;
-    --withdraw-btn-color: #FF7D31;
+    --table-text-color: #66a1ff;
+    --deposite-btn-color: #66a1ff;
+    --withdraw-btn-color: #66a1ff;
 }
 
 
@@ -111,19 +107,17 @@ body {
 
 
 .btn-register {
-    border-radius: 50px;
-    color: var(--white-text-color);
+    border-radius: 10px;
+    color: var(--black-text-color);
     width: fit-content;
     padding: 0.7rem 2rem;
-    background: #C031CE;
+    background: linear-gradient(180deg, #8B5021 0%, #f9ffa5 60%, rgba(210, 149, 52, 1) 90%, #FDFCF7);
+    box-shadow: 0px 0px 20px #f9ffa5;
+    border: solid 1px #8B5021;
     transition: 0.2s;
     font-size: 2rem;
 }
 
-.outline {
-    background: none;
-    border: 1px solid #FFFFFF;
-}
 
 .btn-register:hover {
     cursor: pointer;
@@ -164,9 +158,11 @@ body {
 
 
 .bg-header-2-icon {
-    background: #000000 0% 0% no-repeat padding-box;
+    background-image: url("./static/Rectangle\ 3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     border: 1px solid #707070;
-    border-radius: 100px;
     color: var(--white-text-color);
 }
 
@@ -307,8 +303,8 @@ button[type=submit] {
     border-radius: 60px;
     color: var(--white-text-color);
     background: transparent linear-gradient(0deg, var(--color-main2) 0%, var(--color-main) 100%) 0% 0% no-repeat padding-box;
-    box-shadow: 0px 0px 20px rgb(255, 119, 239);
-    border: 3px solid #e061da;
+    box-shadow: 0px 0px 20px var(--color-border-box-shadow);
+    border: 3px solid var(--color-border);
 }
 
 form>div {
