@@ -71,6 +71,14 @@
     font-size: 1.5rem;
 }
 
+.bg-header-2 h4 {
+    font-size: 1rem;
+}
+
+.bg-header-3 h1 {
+    font-size: 4.3rem;
+}
+
 .wire-frame-theme h1 {
     font-size: 3.0rem;
 }
@@ -161,7 +169,11 @@
         font-size: 1.5rem;
     }
 
+    .bg-header-3 h1 {
+        font-size: 3rem;
+        text-align: center;
 
+    }
 
     .wire-frame-theme {
         padding: 2rem 1rem !important;

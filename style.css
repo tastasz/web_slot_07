@@ -149,13 +149,17 @@ body {
 
 .bg-header-2 {
     width: 100vw;
-    background-image: url("./static/bg-head-2.png");
-    width: 100vw;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
+.iconsAds {
+    background: transparent linear-gradient(180deg, #2A3745 0%, #0F1418 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 20px;
+
+}
 
 .bg-header-2-icon {
     background-image: url("./static/Rectangle\ 3.png");
@@ -164,6 +168,20 @@ body {
     background-size: cover;
     border: 1px solid #707070;
     color: var(--white-text-color);
+}
+
+.bg-header-3 {
+    background-image: url("./static/bg-head-2.png");
+    width: 100vw;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: var(--white-text-color);
+}
+
+.iconGames {
+    background: #010A1B 0% 0% no-repeat padding-box;
 }
 
 
